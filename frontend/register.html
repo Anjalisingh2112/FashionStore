@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register - FashionStore</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="logo">FashionStore</div>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="login.html" class="login-link">Login / Register</a>
+    </nav>
+  </header>
+
+  <section class="auth-section">
+    <div class="auth-container">
+      <h2>Register</h2>
+      <form id="register-form">
+        <input type="text" placeholder="Full Name" id="reg-name" required>
+        <input type="email" placeholder="Email" id="reg-email" required>
+        <input type="password" placeholder="Password" id="reg-password" required>
+        <button type="submit">Register</button>
+      </form>
+      <p>Already have an account? <a href="login.html">Login Here</a></p>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 FashionStore | Designed by Anjali Singh 💖
+  </footer>
+
+  <script>
+    const registerForm = document.getElementById('register-form');
+    registerForm.addEventListener('submit', (e) => {
+      e.preventDefault();
+      alert("Registration Successful!");
+    });
+  </script>
+</body>
+</html>

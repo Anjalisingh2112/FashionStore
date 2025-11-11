@@ -1,0 +1,4 @@
+[
+  {"id":"p1","title":"Casual T-shirt","price":399,"category":"Clothing","img":"/static/images/product1.jpg"},
+  {"id":"p2","title":"Wireless Headphones","price":1299,"category":"Electronics","img":"/static/images/product2.jpg"}
+]

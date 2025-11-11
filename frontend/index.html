@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FashionStore</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">FashionStore</div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Login / Register</a>
+      <a href="#" data-category="T-Shirts">T-Shirts</a>
+      <a href="#" data-category="Shoes">Shoes</a>
+      <a href="#" data-category="Bags">Bags</a>
+      <a href="#" data-category="Headphones">Headphones</a>
+    </nav>
+    <div class="cart">🛒 Cart (<span id="cartCount">0</span>)</div>
+  </header>
+
+  <section class="banner">
+    <h1>Big Sale! Up to 50% Off ✨</h1>
+    <p>Trendy styles at unbeatable prices</p>
+  </section>
+
+  <section id="categories">
+    <button data-category="All">All</button>
+    <button data-category="T-Shirts">T-Shirts</button>
+    <button data-category="Shoes">Shoes</button>
+    <button data-category="Bags">Bags</button>
+    <button data-category="Headphones">Headphones</button>
+  </section>
+
+  <section class="search">
+    <input type="text" id="searchInput" placeholder="Search products...">
+  </section>
+
+  <section id="products" class="products"></section>
+
+  <footer>
+    © 2025 FashionStore
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
